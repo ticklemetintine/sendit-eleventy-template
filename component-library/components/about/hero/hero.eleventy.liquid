@@ -17,6 +17,7 @@
       <div class="col-xl-7 col-lg-12">
         <div class="about-hero-two-banner">
         {% for item in hero_images %}
+        {{item.placement}}
           <div class="{% if item.placement == "front_bottom" %}
           image-one
         {% elsif item.placement == "back_top_right" %}
