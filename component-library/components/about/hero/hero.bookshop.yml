@@ -36,6 +36,6 @@ _inputs:
     type: select
     options:
       values:
-        - front_bottom
-        - back_top_right
-        - back_top_left
+        front_bottom: "Front Bottom"
+        back_top_right: "Back Top Right"
+        back_top_left: "Back Top Left"
